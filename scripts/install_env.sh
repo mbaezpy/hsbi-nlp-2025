@@ -31,7 +31,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install \
   transformers datasets \
   pandas scikit-learn matplotlib \
-  nltk spacy unicodedata tqdm ipykernel jupyter
+  nltk spacy tqdm ipykernel jupyter
 
 # Register the environment as a Jupyter kernel
 python -m ipykernel install --user --name nlp-course --display-name "NLP Course"
